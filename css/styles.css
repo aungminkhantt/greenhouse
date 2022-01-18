@@ -1,0 +1,184 @@
+/*element selectors*/
+
+body{
+	margin:0;
+}
+h1{
+}
+h2{
+	font-family: 'Ubuntu', sans-serif;
+	margin:auto auto;
+	width:60%;
+	margin:50px auto;
+}
+h3{
+	font-family:'Merriweather';
+}
+p{
+	font-family: 'Montserrat';
+	font-size:20px;
+	line-height: 1.5;
+}
+a{
+	text-decoration: none;
+}
+/*id selectors*/
+
+#introduction{
+	background-color: #C9E4C5;
+	text-align:center;
+}
+#explanation{
+	text-align:center;
+}
+#effects{
+	text-align: center;
+	background-color: #FAEBE0;
+}
+#solution{
+	background-color:#B5CDA3;
+	text-align:center;
+	padding:3% 3% 7%;
+}
+/*class selectors*/
+
+/*introduction*/
+.big-header{
+	margin:50px 0 70px;
+	font-family: 'Sacramento', cursive;
+	font-weight: bold;
+	color:#000;
+	font-size:80px;
+}
+.intro{
+	position:relative;
+	padding:7% 15% 0;
+}
+.sun{
+	width:150px;
+	position: absolute;
+	top: 30px;
+	left:200px;
+	margin-bottom:50px;
+}
+.birds{
+	position: absolute;
+	width:50px;
+	left:330px;
+	top:30px;
+}
+.clouds{
+	width:150px;
+	position: absolute;
+	top:30px;
+	right:200px;
+}
+.leaves{
+	width:200px;
+	margin-top:80px;
+}
+/*explanation*/
+
+.origin{
+	padding:7% 15% 3%;
+}
+.explain-header{
+}
+.greenhouse-effect{
+	width:150px;
+}
+.ground{
+	width:200px;
+	margin-bottom:50px;
+}
+.greenhouse{
+	margin-bottom: 50px;
+}
+.iceberg{
+	width:200px;
+	float:right;
+}
+.effect1{
+	margin: 60px auto 20px;
+	text-align:left;
+}
+.pollution{
+	width:200px;
+	float:left;
+}
+.effect2{
+	margin-top:80px;
+	text-align:right;
+}
+/*effects*/
+
+
+.consequences{
+	padding:3% 15% 7%;
+}
+/*solutions*/
+
+.solution-header{
+	margin-bottom:5rem;
+}
+.solution-text{
+	width:60%;
+	margin:auto auto;
+}
+.tree,.traffic{
+	width:150px;
+}
+/*cta*/
+
+.socials{
+	padding:7% 15%;
+	text-align: center;
+}
+.contact{
+	margin:20px 10px;
+	color:black;
+}
+.copyright{
+	font-size:15px;
+}
+@media (max-width: 1042px){
+	.sun, .birds, .clouds{
+		position: static;
+	}
+}
+
+@media (max-width:643px){
+	h2{
+		font-size:22px;
+	}
+	h3{
+		font-size:18px;
+	}
+	p{
+		font-size:15px;
+	}
+	.intro{
+		padding:7% 0 0;
+	}
+	.origin{
+		padding:7% 3% 3%;
+	}
+	.consequences{
+		padding:3% 3% 7%;
+	}
+	.iceberg{
+		float:none;
+		margin:30px 0 50px;
+	}
+	.pollution{
+		float:none;
+		margin:30px 0 50px;
+	}
+	.effect1,.effect2{
+		text-align:center;
+		margin:0;
+	}
+	.copyright{
+		font-size:10px;
+	}
+}
